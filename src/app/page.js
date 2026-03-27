@@ -11,16 +11,17 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="relative min-h-[70vh] flex items-center justify-center text-center overflow-hidden">
         <div className="absolute inset-0">
-          <video 
+        <video 
             autoPlay 
             loop 
             muted 
             playsInline 
             className="w-full h-full object-cover"
           >
-            <source src="https://videos.pexels.com/video-files/3141210/3141210-uhd_2560_1440_25fps.mp4" type="video/mp4" />
+            <source src="https://videos.pexels.com/video-files/3141210/3141210-uhd_2560_1440_25fps.mp4"  type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+
         </div>
         <div className="relative z-10 px-4">
           <AnimatedSection>
@@ -29,9 +30,9 @@ export default function Home() {
             </h1>
           </AnimatedSection>
           <AnimatedSection delay={200}>
-            <p className="text-xl md:text-2xl text-green-300 mb-8 max-w-2xl mx-auto">
-              Secure Your Digital World with Expert Solutions
-            </p>
+           <p className="text-xl md:text-2xl text-green-300 font-bold mb-8 max-w-2xl mx-auto">
+  Secure Your Digital World with Expert Solutions
+</p>
           </AnimatedSection>
           <AnimatedSection delay={400}>
             <div className="flex flex-col md:flex-row gap-4 justify-center">
@@ -340,7 +341,7 @@ export default function Home() {
                   <i className="fab fa-youtube text-2xl"></i>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/safe-byte-a43a90361"
+                  href="https://www.linkedin.com/in/safebyte-x-vyadh-a43a90361?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-400 hover:text-green-300 transition-colors"
@@ -381,7 +382,7 @@ export default function Home() {
                 <li>
                   <div className="flex items-center gap-2">
                     <i className="fas fa-envelope text-green-400"></i>
-                    <span>safebyte@gmail.com</span>
+                    <span>team.safebyte@gmail.com</span>
                   </div>
                 </li>
               </ul>

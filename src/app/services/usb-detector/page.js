@@ -22,12 +22,20 @@ export default function UsbDetector() {
               Advanced USB monitoring system designed for environments where USB devices are restricted.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="bg-green-500 hover:bg-green-600 text-black font-semibold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105">
-                Get Started
-              </button>
-              <button className="border-2 border-green-500 text-green-400 hover:bg-green-500/10 font-semibold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105">
-                View Demo
-              </button>
+                <a
+          href="https://github.com/aayush-ethclhkr/demo1/blob/main/usb_log.py"
+          target="_blank"
+          className="bg-green-500 hover:bg-green-600 text-black font-semibold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 inline-block"
+          >
+  Download
+</a>
+                  <a
+          href="https://github.com/aayush-ethclhkr/demo1/blob/main/usb_log.pdf"
+          target="_blank"
+          className="bg-green-500 hover:bg-green-600 text-black font-semibold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 inline-block"
+          >
+  User Guide
+</a>
             </div>
           </div>
         </div>

@@ -49,8 +49,8 @@ export async function POST(request) {
 
     const mailOptions = {
       from: SMTP_USER,
-      to: 'aayush.upadhyay.cse.2024@miet.ac.in',
-      cc: 'team.safebyte@gmail.com, keshav.garg.5130@gmail.com',
+      to: 'aayushu90@gmail.com',
+      cc: 'team.safebyte@gmail.com, dakshpanwar2005@gmail.com',
       subject: 'New Meeting Request',
       text: `
 New Meeting request from:

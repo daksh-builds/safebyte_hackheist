@@ -21,12 +21,20 @@ export default function FileCrawler() {
               Comprehensive tool that maps and documents your system's file structure for security, backup, and audit purposes.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="bg-green-500 hover:bg-green-600 text-black font-semibold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105">
-                Get Started
-              </button>
-              <button className="border-2 border-green-500 text-green-400 hover:bg-green-500/10 font-semibold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105">
-                View Demo
-              </button>
+               <a
+          href="https://github.com/aayush-ethclhkr/demo1/blob/main/list_files.py"
+          target="_blank"
+          className="bg-green-500 hover:bg-green-600 text-black font-semibold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 inline-block"
+          >
+  Download
+</a>
+             <a
+          href="https://github.com/aayush-ethclhkr/demo1/blob/main/file_lister_user_guide.pdf"
+          target="_blank"
+          className="bg-green-500 hover:bg-green-600 text-black font-semibold py-3 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 inline-block"
+          >
+  User Guide
+</a>
             </div>
           </div>
         </div>
